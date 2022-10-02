@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arkaplan"
+    tools:context=".OynanisActivity">
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="0dp"
+      android:gravity="center"
+      android:layout_marginTop="50dp"
+      android:fontFamily="@font/ultra"
+      android:text="NASIL OYNANIR ?"
+      android:textColor="@color/yellow"
+      android:textSize="40dp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/oynanis1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      android:fontFamily="@font/finger_paintt"
+      android:text="✔ Yarışacak kişilerle gruplara ayrılın"
+      android:layout_marginTop="200dp"
+      android:textSize="15dp"
+      android:textStyle="bold"
+      android:textColor="@color/white"
+    />
+
+  <TextView
+      android:id="@+id/oynanis2"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_margin="20dp"
+      android:fontFamily="@font/finger_paintt"
+      android:gravity="center"
+      android:text="✔ Anlatan kişinin yanında bir kişi kontrol etmek için durması gerekmektedir."
+      android:textColor="@color/white"
+      android:textSize="15dp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toTopOf="@id/oynanis3"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/oynanis1" />
+
+
+  <TextView
+      android:id="@+id/oynanis3"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/oynanis2"
+      app:layout_constraintEnd_toEndOf="parent"
+      android:text="✔ Anlatan kişi kelimeyi anlatırken altında yazan yasaklı kelimeleri söylemeden anlatması gerekmektedir."
+      android:layout_marginStart="39dp"
+      android:layout_marginTop="20dp"
+      android:layout_marginEnd="20dp"
+      android:textSize="15dp"
+      android:fontFamily="@font/finger_paintt"
+      android:textStyle="bold"
+      android:gravity="center"
+      android:textColor="@color/white"
+      />
+
+  <TextView
+      android:id="@+id/oynanis4"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/oynanis3"
+      app:layout_constraintEnd_toEndOf="parent"
+      android:text="✔ Anlatan kişi yasaklı kelimeyi kullanırsa kontrol eden kişi uyarmalıdır."
+      android:layout_marginTop="20dp"
+      android:layout_marginStart="30dp"
+      android:layout_marginEnd="20dp"
+      android:textSize="15dp"
+      android:textStyle="bold"
+      android:fontFamily="@font/finger_paintt"
+      android:gravity="center"
+      android:textColor="@color/white"
+      />
+
+  <TextView
+      android:id="@+id/oynanis5"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/oynanis4"
+      app:layout_constraintEnd_toEndOf="parent"
+      android:fontFamily="@font/finger_paintt"
+      android:text="✔ Anlatan kişi yasaklı kelimeleri söylerse tabu olur ve puanı iki puan azalır."
+      android:textSize="15dp"
+      android:textStyle="bold"
+      android:gravity="center"
+      android:layout_marginTop="20dp"
+      android:layout_marginEnd="20dp"
+      android:layout_marginStart="28dp"
+      android:textColor="@color/white"
+      />
+
+  <TextView
+      android:id="@+id/oynanis6"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/oynanis5"
+      app:layout_constraintEnd_toEndOf="parent"
+      android:text="✔ Yasaklı kelimeleri söylemeden anlatmayı başarırsa puanı bir puan artar."
+      android:textSize="15dp"
+      android:textStyle="bold"
+      android:gravity="center"
+      android:layout_marginTop="20dp"
+      android:layout_marginEnd="20dp"
+      android:layout_marginStart="28dp"
+      android:fontFamily="@font/finger_paintt"
+      android:textColor="@color/white"
+      />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

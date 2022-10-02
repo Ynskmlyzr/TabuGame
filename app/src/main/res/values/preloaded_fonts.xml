@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/finger_paint</item>
+        <item>@font/finger_paintt</item>
+        <item>@font/jockey_one</item>
+        <item>@font/permanent_marker</item>
+        <item>@font/ultra</item>
+    </array>
+</resources>
